@@ -1,8 +1,8 @@
 # LCRARainFallanalysis
 Using LCRA rain data, create a more useful Impervious Coverage policy for Austin
 
-### some pandas info on the rainfall dataset. rainfalls contains 0 values, sample does not. probably pointless to calculate rainfall percentiles with 0 values
-
+Some pandas info on the rainfall dataset. rainfalls contains 0 values, sample does not. probably pointless to calculate rainfall percentiles with 0 values
+```
 In [27]: rainfall['inches'].describe()
 Out[27]:
 count    342367.000000
@@ -47,3 +47,4 @@ min         0.010000
 100%        2.450000
 max         2.450000
 Name: inches, dtype: float64
+```
