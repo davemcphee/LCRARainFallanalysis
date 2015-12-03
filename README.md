@@ -1,4 +1,4 @@
-# LCRARainFallanalysis
+# LCRA RainFall Analysis
 Using LCRA rain data, create a more useful Impervious Coverage policy for Austin
 
 Some pandas info on the rainfall dataset. rainfalls contains 0 values, sample does not. probably pointless to calculate rainfall percentiles with 0 values
